@@ -11,6 +11,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		84A6198C27BFC0C000F9C176 /* extensionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6198B27BFC0C000F9C176 /* extensionApp.swift */; };
+		84A6198E27BFC0C000F9C176 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6198D27BFC0C000F9C176 /* ContentView.swift */; };
+		84A6199027BFC0C000F9C176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6198F27BFC0C000F9C176 /* Assets.xcassets */; };
+		84A6199327BFC0C000F9C176 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6199227BFC0C000F9C176 /* Preview Assets.xcassets */; };
 		96905EF65AED1B983A6B3ABC /* libPods-reactnativeappextension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-reactnativeappextension.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -27,6 +31,12 @@
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-reactnativeappextension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativeappextension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-reactnativeappextension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeappextension.debug.xcconfig"; path = "Target Support Files/Pods-reactnativeappextension/Pods-reactnativeappextension.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-reactnativeappextension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeappextension.release.xcconfig"; path = "Target Support Files/Pods-reactnativeappextension/Pods-reactnativeappextension.release.xcconfig"; sourceTree = "<group>"; };
+		84A6198927BFC0C000F9C176 /* extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A6198B27BFC0C000F9C176 /* extensionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionApp.swift; sourceTree = "<group>"; };
+		84A6198D27BFC0C000F9C176 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84A6198F27BFC0C000F9C176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A6199227BFC0C000F9C176 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84A6199427BFC0C000F9C176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = reactnativeappextension/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -39,6 +49,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96905EF65AED1B983A6B3ABC /* libPods-reactnativeappextension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A6198627BFC0C000F9C176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* reactnativeappextension */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				84A6198A27BFC0C000F9C176 /* extension */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
@@ -95,8 +113,29 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* reactnativeappextension.app */,
+				84A6198927BFC0C000F9C176 /* extension.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84A6198A27BFC0C000F9C176 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				84A6198B27BFC0C000F9C176 /* extensionApp.swift */,
+				84A6198D27BFC0C000F9C176 /* ContentView.swift */,
+				84A6198F27BFC0C000F9C176 /* Assets.xcassets */,
+				84A6199427BFC0C000F9C176 /* Info.plist */,
+				84A6199127BFC0C000F9C176 /* Preview Content */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		84A6199127BFC0C000F9C176 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84A6199227BFC0C000F9C176 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		92DBD88DE9BF7D494EA9DA96 /* reactnativeappextension */ = {
@@ -157,16 +196,40 @@
 			productReference = 13B07F961A680F5B00A75B9A /* reactnativeappextension.app */;
 			productType = "com.apple.product-type.application";
 		};
+		84A6198827BFC0C000F9C176 /* extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A6199527BFC0C000F9C176 /* Build configuration list for PBXNativeTarget "extension" */;
+			buildPhases = (
+				84A6198527BFC0C000F9C176 /* Sources */,
+				84A6198627BFC0C000F9C176 /* Frameworks */,
+				84A6198727BFC0C000F9C176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = extension;
+			productName = extension;
+			productReference = 84A6198927BFC0C000F9C176 /* extension.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = BGSR8DRP9M;
 						LastSwiftMigration = 1250;
+					};
+					84A6198827BFC0C000F9C176 = {
+						CreatedOnToolsVersion = 12.5.1;
+						DevelopmentTeam = BGSR8DRP9M;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -184,6 +247,7 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* reactnativeappextension */,
+				84A6198827BFC0C000F9C176 /* extension */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +260,15 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A6198727BFC0C000F9C176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A6199327BFC0C000F9C176 /* Preview Assets.xcassets in Resources */,
+				84A6199027BFC0C000F9C176 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +363,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84A6198527BFC0C000F9C176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A6198E27BFC0C000F9C176 /* ContentView.swift in Sources */,
+				84A6198C27BFC0C000F9C176 /* extensionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -300,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -313,7 +396,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.reactnativeappextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp;
 				PRODUCT_NAME = reactnativeappextension;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -328,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = reactnativeappextension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -336,7 +420,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.reactnativeappextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp;
 				PRODUCT_NAME = reactnativeappextension;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -375,6 +459,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -431,6 +516,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -445,6 +531,69 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A6199627BFC0C000F9C176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A6199727BFC0C000F9C176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"extension/Preview Content\"";
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = extension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -465,6 +614,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A6199527BFC0C000F9C176 /* Build configuration list for PBXNativeTarget "extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A6199627BFC0C000F9C176 /* Debug */,
+				84A6199727BFC0C000F9C176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
