@@ -420,7 +420,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp.prod;
 				PRODUCT_NAME = reactnativeappextension;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -589,7 +589,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.reactnativeapp.extension.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
