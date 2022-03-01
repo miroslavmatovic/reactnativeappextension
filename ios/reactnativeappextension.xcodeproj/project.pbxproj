@@ -662,8 +662,8 @@
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativeappextension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+				13B07F941A680F5B00A75B9A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -671,8 +671,8 @@
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativeappextension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+				83CBBA201A601CBA00E9B192 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -680,8 +680,8 @@
 		84A619A927BFC87E00F9C176 /* Build configuration list for PBXNativeTarget "extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84A619AA27BFC87E00F9C176 /* Debug */,
 				84A619AB27BFC87E00F9C176 /* Release */,
+				84A619AA27BFC87E00F9C176 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
