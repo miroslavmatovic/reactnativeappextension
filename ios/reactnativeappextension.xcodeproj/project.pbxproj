@@ -666,7 +666,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativeappextension" */ = {
 			isa = XCConfigurationList;
@@ -675,7 +675,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 		84A619A927BFC87E00F9C176 /* Build configuration list for PBXNativeTarget "extension" */ = {
 			isa = XCConfigurationList;
@@ -684,7 +684,7 @@
 				84A619AB27BFC87E00F9C176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
